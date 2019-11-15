@@ -1,0 +1,10 @@
+[web]
+labx.example.com ansible_user=root
+
+[server]
+serverx.example.com
+
+[wordpress:children]
+web
+server
+
